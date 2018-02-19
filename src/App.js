@@ -20,7 +20,7 @@ class App extends Component {
     return (
       <div className="App">
       <Parallax>
-       <header className="transparent">
+       <header>
           <img src="http://www.iconninja.com/files/597/234/361/earth-globe-planet-icon.png" className="App-logo" alt="logo" />
           <h1 className="App-title">Eric Blancas</h1>
 
