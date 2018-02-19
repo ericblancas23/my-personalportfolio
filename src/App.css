@@ -29,10 +29,18 @@
 
 .project-display {
 	float: left;
-	width: 700px;
+	width: 500px;
   border: 5px solid black;
   padding: 25px;
   margin: 25px;
+}
+
+.links {
+	display: inline;
+}
+
+#my-paragraph {
+	padding-top: 4cm;
 }
 
 .project-image {
@@ -57,9 +65,21 @@
 }
 
 #pic {
-  height: 500px;
-  width: 500px;
+  height: 300px;
+  width: 300px;
   margin-top: 2cm;
+}
+
+#paragraph2 {
+	margin-right: 50%;
+	padding-top: 2cm;
+}
+
+.more-about {
+	background-color: skyblue;
+	padding: .15cm;
+	overflow: auto;
+	float: left;
 }
 
 #box{
@@ -119,6 +139,7 @@ li a:hover {
 	-webkit-animation-timing-function: ease-out;
 
 	visibility: visible !important;
+	
 }
 
 @keyframes bigEntrance {

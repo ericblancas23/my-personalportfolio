@@ -1,22 +1,17 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { slide as Menu } from 'react-burger-menu';
+import { NavBar } from '../Components/Navbar';
 import '../App.css';
 
 class Aboutme extends Component {
   render() {
     return(
       <div className="App">
-        <header className="App-header">
+        <header>
           <img src="http://www.iconninja.com/files/597/234/361/earth-globe-planet-icon.png" className="App-logo" alt="logo" />
-          <h1 className="App-title">Eric Blancas: Portfolio</h1>
-          <Menu customCrossIcon={ <img src="https://cdn4.iconfinder.com/data/icons/abstract-shapes-5-1/32/arrow_point_left_edit_abstract_creative_design-256.png" /> } width={ '150px' } id="bm-burger-button"  noOverlay>
-            <a id="home" href="/">Home</a>
-            <a id="about"  href="/about-me">About</a>
-            <a id="projects" href="/projects">Projects</a>
-            <a id ="contact" href="/contact">Contact</a>
-         </Menu>
-        </header>
+          <h1 className="App-title">Eric Blancas</h1>
+          <NavBar />
+      </header>
         <div className="bigEntrance">
         <img src="https://pbs.twimg.com/profile_images/845313033572270081/7mXto357.jpg" id="pic"/>
         </div>

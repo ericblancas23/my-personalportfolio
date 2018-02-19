@@ -21,6 +21,9 @@ export const NavBar = () => (
     <NavItem eventKey={2} href="#">
       <Link to="/Projects">Projects</Link>
     </NavItem>
+    <NavItem>
+        <Link to="/contact">Contact</Link>
+    </NavItem>
   </Nav>
 </Navbar>
     </div>
