@@ -35,6 +35,10 @@
   margin: 25px;
 }
 
+.Navbar-style {
+	background-color: #ff8566;
+}
+
 .links {
 	display: inline;
 }

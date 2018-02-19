@@ -5,7 +5,7 @@ import Aboutme from '../routes/about-me';
 
 export const NavBar = () => (
     <div>
-        <Navbar>
+        <Navbar className="Navbar-style">
   {/* <Navbar.Header>
     <Navbar.Brand>
       <a href="#home">React-Bootstrap</a>

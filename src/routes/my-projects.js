@@ -13,17 +13,12 @@ class Projects extends Component {
                   <header>
                     <img src="http://www.iconninja.com/files/597/234/361/earth-globe-planet-icon.png" className="App-logo" alt="logo" />
                     <h1 className="App-title">Eric Blancas</h1>
-                    <NavBar />
+                
                   </header>
+                  <NavBar />
                   <div className="bigEntrance">
                   </div>
                   <center>
-                  <div id="box">
-                    <p>
-                        These are the current projects I have worked on both individually and also with capstone group
-                    involving an agile development process during the making. 
-                     </p>
-                  </div>
                   <div className="project-display">
                     <h3>Cliphy Project</h3>
                     <h4>https://movingimages.herokuapp.com/</h4>

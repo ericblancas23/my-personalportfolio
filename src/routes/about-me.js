@@ -10,8 +10,9 @@ class Aboutme extends Component {
         <header>
           <img src="http://www.iconninja.com/files/597/234/361/earth-globe-planet-icon.png" className="App-logo" alt="logo" />
           <h1 className="App-title">Eric Blancas</h1>
-          <NavBar />
+          
       </header>
+      <NavBar />
         <div className="bigEntrance">
         <img src="https://pbs.twimg.com/profile_images/845313033572270081/7mXto357.jpg" id="pic"/>
         </div>

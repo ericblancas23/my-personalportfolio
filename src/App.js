@@ -3,7 +3,13 @@ import logo from './logo.svg';
 import './pic.jpg';
 import { Link, Router } from 'react-router-dom';
 import { NavBar } from './Components/Navbar';
+import { Parallax } from 'react-scroll-parallax';
+
 import './App.css';
+
+
+
+
 
 class App extends Component {
 
@@ -13,12 +19,14 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-       <header>
+      <Parallax>
+       <header className="transparent">
           <img src="http://www.iconninja.com/files/597/234/361/earth-globe-planet-icon.png" className="App-logo" alt="logo" />
           <h1 className="App-title">Eric Blancas</h1>
-          <NavBar />
+
       </header>
-        
+        <NavBar />
+      </Parallax>      
         <div className="bigEntrance">
           <img src={require('./pic.jpg')} id="pic" style={{ float: 'left'}}/>
           <div id="my-paragraph">
