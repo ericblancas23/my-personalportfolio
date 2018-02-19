@@ -8,3 +8,12 @@ body {
 header {
   background-image: url('http://ssuet.edu.pk/wp-content/uploads/2016/08/header-background.jpg');
 }
+img {
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+img:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+}

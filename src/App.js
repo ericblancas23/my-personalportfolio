@@ -34,7 +34,7 @@ class App extends Component {
         <div className="more-about">
           <p id="paragraph2">My first encounter of becoming a software developer all started with my senior project 
           of high school. My project involved me attending my very first web developer bootcamp for the weekend</p>
-          <img src="https://www.drupal.org/files/druplicon-small.png" style={{width: 200, height: 200}} />
+          <img src="https://www.drupal.org/files/druplicon-small.png" style={{width: 200, height: 200, float: 'right'}} />
         </div>
       </div>
     );
