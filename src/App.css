@@ -1,0 +1,202 @@
+
+
+.nav2 {
+	margin: auto; 
+	padding-top: .7cm;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+	/* animation: App-logo-spin infinite 20s linear; */
+	animation-name: stretch;
+  animation-duration: 1.5s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running; 
+  height: 80px;
+}
+
+#project-paragraph {
+	float: right;
+	margin: auto;
+}
+
+.project-display {
+	float: left;
+	width: 700px;
+  border: 5px solid black;
+  padding: 25px;
+  margin: 25px;
+}
+
+.project-image {
+	height:400px;
+	width:500px;
+}
+
+.App-header {
+  background-image: url("https://www.christianscience.com/var/cscom/storage/images/media/images/christian-healing-today-images/daily-lift-header-color-artwork/6308-7-eng-US/daily-lift-header-color-artwork.jpg?v3.3.0");
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+#pic {
+  height: 500px;
+  width: 500px;
+  margin-top: 2cm;
+}
+
+#box{
+  width: 700px;
+  border: 5px solid black;
+  padding: 25px;
+  margin: 25px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+#bm-burger-button {
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  left: 36px;
+  top: 36px;
+}
+
+.links {
+  font-style: italic;
+  font-weight: bolder;
+}
+
+
+
+.bigEntrance{
+	animation-name: bigEntrance;
+	-webkit-animation-name: bigEntrance;
+
+	animation-duration: 1.6s;
+	-webkit-animation-duration: 1.6s;
+
+	animation-timing-function: ease-out;
+	-webkit-animation-timing-function: ease-out;
+
+	visibility: visible !important;
+}
+
+@keyframes bigEntrance {
+	0% {
+		transform: scale(0.3) rotate(6deg) translateX(-30%) translateY(30%);
+		opacity: 0.2;
+	}
+	30% {
+		transform: scale(1.03) rotate(-2deg) translateX(2%) translateY(-2%);
+		opacity: 1;
+	}
+	45% {
+		transform: scale(0.98) rotate(1deg) translateX(0%) translateY(0%);
+		opacity: 1;
+	}
+	60% {
+		transform: scale(1.01) rotate(-1deg) translateX(0%) translateY(0%);
+		opacity: 1;
+	}
+	75% {
+		transform: scale(0.99) rotate(1deg) translateX(0%) translateY(0%);
+		opacity: 1;
+	}
+	90% {
+		transform: scale(1.01) rotate(0deg) translateX(0%) translateY(0%);
+		opacity: 1;
+	}
+	100% {
+		transform: scale(1) rotate(0deg) translateX(0%) translateY(0%);
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes bigEntrance {
+	0% {
+		-webkit-transform: scale(0.3) rotate(6deg) translateX(-30%) translateY(30%);
+		opacity: 0.2;
+	}
+	30% {
+		-webkit-transform: scale(1.03) rotate(-2deg) translateX(2%) translateY(-2%);
+		opacity: 1;
+	}
+	45% {
+		-webkit-transform: scale(0.98) rotate(1deg) translateX(0%) translateY(0%);
+		opacity: 1;
+	}
+	60% {
+		-webkit-transform: scale(1.01) rotate(-1deg) translateX(0%) translateY(0%);
+		opacity: 1;
+	}
+	75% {
+		-webkit-transform: scale(0.99) rotate(1deg) translateX(0%) translateY(0%);
+		opacity: 1;
+	}
+	90% {
+		-webkit-transform: scale(1.01) rotate(0deg) translateX(0%) translateY(0%);
+		opacity: 1;
+	}
+	100% {
+		-webkit-transform: scale(1) rotate(0deg) translateX(0%) translateY(0%);
+		opacity: 1;
+	}
+}
+
+
+@keyframes stretch {
+  /* from { transform: rotate(0deg); }
+	to { transform: rotate(360deg); } */ 
+	0% {
+    transform: scale(.3);
+    /* background-color: red; */
+    border-radius: 100%;
+  }
+  50% {
+    /* background-color: orange; */
+  }
+  100% {
+    transform: scale(1.0);
+    /* background-color: yellow; */
+  }
+}
