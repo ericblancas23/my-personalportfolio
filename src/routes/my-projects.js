@@ -32,7 +32,7 @@ class Projects extends Component {
                 <div className="project-display">
                   <h3>Lambda Showcase </h3>
                   <h4>https://lambdashowcase.herokuapp.com/</h4>
-                    <img src={require('../Components/projectdisplay.png')} className="project-image"/>
+                  
                     <img src={require('../Components/lambdashowcase.png')} className="project-image"/>
                     <p> This was my capstone project for Lambda School. Graduating out of the 2nd cohort 
                         of the program, we wanted to create a tool that is both beneficial and luxurious 
@@ -42,6 +42,17 @@ class Projects extends Component {
                         Express, React, and Node. This was a full stack web application dedicated to the program.
                     </p>
                 </div>
+                <div className="project-display">
+                    <h3>AirBnB Clone</h3>
+                    <h4>https://airbnbproject.herokuapp.com/</h4>
+                      <img src="https://cdn.scotch.io/208/rbp8gIqTEWrW5vEKouQW_Screen%20Shot%202018-01-05%20at%207.58.58%20PM.png" className="project-image"/>
+                  <p>
+                    This project was demonstrate my skill set as a Front-end Developer. Using Redux along with
+                    the Appbase.io tools, I was able to immitate the design and the architecture of the Airbnb 
+                    website. 
+                  </p>
+                </div>
+              
                   </center>
                 </div>
         );
