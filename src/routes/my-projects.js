@@ -52,6 +52,14 @@ class Projects extends Component {
                     website. 
                   </p>
                 </div>
+                <div className="project-display">
+                    <h3>Taxi-Application</h3>
+                    <h4>https://github.com/ericblancas23/taxi-app</h4>
+                      <img src="https://cdn-images-1.medium.com/max/369/1*bRuoHj7wZkwqNFcA7wJqPQ.png"/>
+                  <p>
+                  Lambda School Personal Project to demonstrate skills in full stack development and also in React/React Native 
+                  </p>
+                </div>
               
                   </center>
                 </div>
