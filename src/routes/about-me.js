@@ -15,20 +15,29 @@ class Aboutme extends Component {
       <NavBar />
         <div className="bigEntrance">
         <img src="https://pbs.twimg.com/profile_images/845313033572270081/7mXto357.jpg" id="pic"/>
+        <h2><a href="https://lambdaschool.com/alumni/eric-blancas/">Lambda School Alumni Page</a></h2>
         </div>
         <center>
         <div id="box">
-          <p>Born and raised in San Diego, california. I always had an admiration for computers and technology, social media was
+          <h2>Me as a Developer</h2>
+          <p>Born and raised in San Diego, california. I always had an admiration for computers and technology, and social media was
           just starting to become popular in the beginning of my generation. Xanga was my first exposure to DOM manipulation
-          and rendering of colors, thus begun my journey to programming. I mainly did this on the side with the main fact that
-          my goal after college was to become a doctor.
-              Not knowing that I was proffcient in web Development while in college, it came
-          to my discovery that studying pre-med was just not for me. The sudden thought of becoming a programmer did not come to my head
-          until I built my first gaming computer. Building my first ever pc exposed me to much more advanced concepts of computer science.
-          I studied game Development, mobiled application Development with swift, and web Development has been my primary focus, even at
-          a younger age without even knowing. So I continue my path to software engineering and problem solving as I progress through and through
-          as the years go on. 
-           </p>
+          of rendering of colors, and creation of user interfaces; thus begun my journey to programming. 
+            My journey began with just one small Dom manipulation to making Http requests from servers. I enjoy writing eloquent, scalable 
+          code and while I may not be perfect, I always have the time to improve upon my skillset because learning to better my code. I'm always
+          open to learning new techniques and tricks to better my skill set (especially new Technologies!). Mern (an acronym for MongoDB, Express, 
+          React and Node) is my primary Stack for Developing Web applications, I also specialize in the python stack for tensorflow and also flask for 
+          api developement. As time goes by and as new things are being made, I'm always open to exchanging experiences, so please 
+          feel free to email me at ericblancas23@gmail.com or feel free to look towards my linkedin page in the contact section :) 
+          </p>
+          <h2>My Hobbies</h2>
+          <p>
+            Fun fact about me is I participated in a competitive online Gaming competition for money during college.
+          Our college team was featured twice on Espn for the national tournament but was knocked out early due to other 
+          teams besting us, the contest I participated in is called Heroes of the dorms playing under Blizzard's famous online
+          game Heroes of the storm. 
+            Other hobbies include biking, photography, blogging, computer building and gaming :). 
+          </p>
         </div>
         </center>
       </div>
