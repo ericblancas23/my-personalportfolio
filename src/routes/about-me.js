@@ -8,9 +8,9 @@ class Aboutme extends Component {
     return(
       <div className="App">
         <header>
-          <img src="http://www.iconninja.com/files/597/234/361/earth-globe-planet-icon.png" className="App-logo" alt="logo" />
-          <h1 className="App-title">Eric Blancas</h1>
           
+        <h1 className="App-title" style={{ color: "skyblue"}}>Eric Blancas</h1>
+          <a href="/"><img src="https://www.bnmetrics.com/images/bunny-icon.png" style={{width: 100, height: 100 }}/></a>
       </header>
       <NavBar />
         <div className="bigEntrance">

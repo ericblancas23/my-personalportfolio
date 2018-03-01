@@ -7,9 +7,9 @@ class Contact extends Component {
         return(
                 <div className="App">
                  <header>
-                  <img src="http://www.iconninja.com/files/597/234/361/earth-globe-planet-icon.png" className="App-logo" alt="logo" />
-                   <h1 className="App-title">Eric Blancas</h1>
-                     
+                  
+                 <h1 className="App-title" style={{ color: "skyblue"}}>Eric Blancas</h1>
+                   <a href="/"><img src="https://www.bnmetrics.com/images/bunny-icon.png" style={{width: 100, height: 100 }}/></a> 
                  </header>
                  <NavBar />
                  <center>
@@ -17,8 +17,8 @@ class Contact extends Component {
                     Contact information is below
                  </div>
                  <div className="links">
-                    <a href="https://github.com/ericblancas23"> <img src={require('../Components/Octocat.png')} style={{height: 300, width: 300}}/></a>
-                    <a href="https://www.linkedin.com/in/eric-blancas23/"><img src={require('../Components/linkedin.png')} style={{height: 300, width: 300}}/></a>
+                    <a href="https://github.com/ericblancas23"> <img className="clearImg"src={require('../Components/Octocat.png')} style={{height: 300, width: 300}}/></a>
+                    <a href="https://www.linkedin.com/in/eric-blancas23/"><img className="clearImg"src={require('../Components/linkedin.png')} style={{height: 300, width: 300}}/></a>
                  </div>
                  </center>
                 </div>

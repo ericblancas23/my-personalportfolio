@@ -9,7 +9,8 @@ header {
   background-image: url('http://www.chromamarketing.com/wp-content/uploads/2015/08/custom-website-banners.jpg');
   background-position: center;
   background-position-y: 65%;
-  height: 500px;
+  padding-top: 0.5cm;
+  height: 490px;
 }
 img {
   opacity: 0.5;
