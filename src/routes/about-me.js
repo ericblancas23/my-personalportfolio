@@ -18,11 +18,12 @@ class Aboutme extends Component {
         <center>
         <div id="box">
           <h2>Me as a Developer</h2>
-          <p>Born and raised in San Diego, california. I always had an admiration for computers and technology; social media was
-          just starting to become popular in the beginning of my generation. Xanga was my first exposure to DOM manipulation
+          <p>Born and raised in San Diego, california. Growing up I always had an admiration for computers and technology, Xanga and myspace had become my stepping stool
+            towards web development. I would spend countless hours trying to make my profile page look colorful just to show off towards my friends and eventually from such a 
+            young age, it became one of my most treasured skills. Html/CSS was my first exposure to DOM manipulation
           of rendering colors, and creation of user interfaces; thus began my journey of becoming a web developer. 
             It all started with just one small Dom manipulation, to making Http requests towards servers. I enjoy writing eloquent, scalable 
-          code and while I may not be perfect, I always have the time to improve upon my skillset because learning to better my code. I'm always
+          code and while I may not be perfect, I always have the time to improve upon my skillset because I enjoy learning to better my coding ability. I'm always
           open to learning new techniques and tricks to better my skill set (especially new Technologies!). Mern (an acronym for MongoDB, Express, 
           React and Node) is my primary Stack for Developing Web applications, I also specialize in the python stack for tensorflow and also flask for 
           api developement. As time goes by and as new things are being made, I'm always open to exchanging experiences, so please 
