@@ -10,14 +10,5 @@ header {
   background-position: center;
   background-position-y: 65%;
   padding-top: 0.5cm;
-  height: 490px;
-}
-img {
-  opacity: 0.5;
-  filter: alpha(opacity=50); /* For IE8 and earlier */
-}
-
-img:hover {
-  opacity: 1.0;
-  filter: alpha(opacity=100); /* For IE8 and earlier */
+  height: 550px;
 }

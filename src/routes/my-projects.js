@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { NavBar } from '../Components/Navbar';
 
 
+
 class Projects extends Component {
 
     
@@ -11,9 +12,7 @@ class Projects extends Component {
         return(
                 <div className="App">
                   <header>
-                
-                  <h1 className="App-title" style={{ color: "skyblue"}}>Eric Blancas</h1>
-                    <a href="/"><img src="https://www.bnmetrics.com/images/bunny-icon.png" style={{width: 100, height: 100 }}/></a>
+                    <h1 className="App-title" style={{ color: "skyblue"}}>Eric Blancas</h1>
                   </header>
                   <NavBar />
                   <div className="bigEntrance">
@@ -60,7 +59,7 @@ class Projects extends Component {
                   Lambda School Personal Project to demonstrate skills in full stack development and also in React/React Native 
                   </p>
                 </div>
-              
+                   
                   </center>
                 </div>
         );

@@ -37,6 +37,9 @@
 
 .Navbar-style {
 	background-color: #ff8566;
+	position: fixed;
+  top: 0;
+  width: 100%
 }
 
 .links {

@@ -3,8 +3,12 @@ import { Nav, Navbar, NavDropdown, NavItem, MenuItem} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import Aboutme from '../routes/about-me';
 
+
+  
+
 export const NavBar = () => (
     <div>
+      
         <Navbar className="Navbar-style">
   {/* <Navbar.Header>
     <Navbar.Brand>
@@ -24,6 +28,7 @@ export const NavBar = () => (
     <NavItem>
         <Link to="/contact">Contact</Link>
     </NavItem>
+    <img src="https://www.bnmetrics.com/images/bunny-icon.png" style={{width: 40, height: 40, float:"right", paddingTop: "0.5cm"}}/>
   </Nav>
 </Navbar>
     </div>
