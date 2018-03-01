@@ -23,7 +23,7 @@ class Projects extends Component {
                     <h4>https://movingimages.herokuapp.com/</h4>
                       <img className="clearImg" src={require('../Components/cliphy.png')} className="project-image"/>
                   <p>
-                          This project is a clone of Cliphy using Maonsry Layout. Users will be able to 
+                          This project is a clone of Cliphy using Masonry Layout. Users will be able to 
                           upload their gif for users to display towards the website. Technologies that was used are
                           React, Auth0 for authentication and Cloudinary for file uploading.
                 </p>
